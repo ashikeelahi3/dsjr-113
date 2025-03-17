@@ -46,7 +46,7 @@ graph <- ggplot(new_data, aes(x = Year, y = AQI, col = Day)) +
   geom_point() +
   geom_hline(yintercept = c(50, 100, 150, 200, 250, 300), 
              color = "red", linetype = "dashed") +
-  labs(title = "Air Quality Index Over Time (Month wise)",
+  labs(title = "Air Quality Index Over Time (Month wise) in Dhaka",
        y = "AQI") + 
   theme_bw()
 print(graph)
